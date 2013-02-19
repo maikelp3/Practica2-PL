@@ -7,10 +7,10 @@ html *
 
 h1            { text-align: center; font-size: x-large; }
 th, td        { vertical-align: top; text-align: right; }   
-/* #finaltable  * { color: white; background-color: black; }   */
+#finaltable   { color: white; background-color: black; }   
 
-/* #finaltable table { border-collapse:collapse; } */
-/* #finaltable table, td { border:1px solid white; } */
+#finaltable table { border-collapse:collapse; } 
+#finaltable table, td { border:1px solid white; } 
 #finaltable:hover td { background-color: blue; } 
 tr:nth-child(odd)    { background-color:#eee; }
 tr:nth-child(even)    { background-color:#00FF66; }
